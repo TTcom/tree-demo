@@ -2,11 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Button,Tree} from 'ant-design-vue';
+import { Button,DatePicker,Icon} from 'ant-design-vue';
 
 
 Vue.use(Button);
-Vue.use(Tree)
+Vue.use(DatePicker);
+Vue.use(Icon);
 Vue.config.productionTip = false
 
 new Vue({
