@@ -3,9 +3,9 @@
 		  	<div style="margin-bottom: 10px;"> 
 		  		<a-button type="primary" @click="show=!show">{{show ? "显示" : "隐藏"}}</a-button>
 		  	</div>
-	
-		  		<a-range-picker @change="onChange"/>  
-		 
+	        <div v-if="!show">
+		  		      <a-range-picker @change="onChange"/>  
+		     </div>
         
    
   
